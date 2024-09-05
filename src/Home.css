@@ -1,0 +1,269 @@
+#grid1:hover {
+    background-color: rgb(255, 246, 191);
+}
+
+#grid2:hover {
+    background-color: rgb(255, 246, 191);
+}
+
+#grid3:hover {
+    background-color: rgb(255, 246, 191);
+}
+
+.font1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: xx-large;
+}
+
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.2);
+}
+
+.team-item .team-overlay {
+    font-size: larger;
+    color: rgb(233, 185, 114);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 36, 41, .9);
+    transition: .5s;
+    opacity: 0;
+}
+
+.team-item:hover .team-overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.blog-item img {
+    transition: .5s;
+}
+
+.blog-item:hover img {
+    transform: scale(1.2);
+}
+
+.testimonial-carousel .owl-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+    position: relative;
+    margin: 0 5px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: var(--primary);
+    font-size: 22px;
+    border-radius: 45px;
+    transition: .5s;
+}
+
+
+i {
+    color: #18f98f;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+}
+
+
+#footer {
+    background: #f7f7f7;
+    padding: 3rem;
+    /* padding-top: 5rem; */
+    padding-top: 7rem;
+    padding-bottom: 80px;
+    background-image: url(C:\Users\RADHE\OneDrive\Desktop\TheOG_Gym\TheOG\theog\src\img14.jpg);
+}
+
+#footer2 {
+    background: #f7f7f7;
+    padding: 3rem;
+    margin-top: 0px;
+    /* padding-top: 5rem; */
+    padding-top: 7rem;
+    padding-bottom: 80px;
+    background-image: url(C:\Users\RADHE\OneDrive\Desktop\TheOG_Gym\TheOG\theog\src\img14.jpg);
+}
+
+.social-links h2 {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-links img {
+    padding-bottom: 25px;
+}
+
+.social-icons {
+    /* display: flex;
+      gap: 3rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #777777;
+}
+
+.social-icons a {
+    color: #777777;
+}
+
+.social-icons a:hover {
+    color: #000;
+}
+
+.social-icons a i {
+    box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 3px;
+    color: #82074a;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+li {
+    list-style: none;
+}
+
+.useful-link h2 {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.useful-link img {
+    padding-bottom: 15px;
+}
+
+.use-links {
+    line-height: 32px;
+}
+
+.use-links li i {
+    font-size: 14px;
+    padding-right: 8px;
+    color: #898989;
+}
+
+.use-links li a {
+    color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+    color: #777777;
+}
+
+.use-links li a:hover {
+    color: #000;
+}
+
+.address h2 {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.address img {
+    padding-bottom: 15px;
+}
+
+.address-links li a {
+    color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+    color: #777777;
+
+}
+
+.address-links li i {
+    font-size: 16px;
+    padding-right: 8px;
+    color: #82074a;
+
+}
+
+.address-links li i:nth-child(1) {
+    padding-top: 9px;
+}
+
+.address-links .address1 {
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+}
+
+.address-links {
+    line-height: 32px;
+    color: #777777;
+}
+
+.copy-right-sec {
+    padding: 1.8rem;
+    background: #82074a;
+    color: #fff;
+    text-align: center;
+}
+
+.copy-right-sec a {
+    color: #fcd462;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+.body {
+    display: grid;
+    grid-template-columns: auto 0px; 
+  }
+  
+  .top {
+    place-self:end;
+    position:sticky;
+    bottom:20px;
+    margin-left:97%;
+    margin-top:100vh;
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: blue;
+    background-color: gold;
+    border-radius: 100px;
+    white-space:nowrap;
+  }

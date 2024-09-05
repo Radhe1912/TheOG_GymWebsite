@@ -1,0 +1,7 @@
+.bg{
+    background: url("img14.jpg");
+}
+.card-body{
+    background: url("img19.jpg");
+    background-size: cover;
+}
